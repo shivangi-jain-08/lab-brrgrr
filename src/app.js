@@ -175,7 +175,7 @@ function renderIngredientsBoard(){
 //price based on ingredients
 
 function renderPrice(){
-  var price = wholeWheatBun;
+  var price = wholeWheatBun*2;
 
   if(state.Patty){
     price+=ingredients.Patty;
